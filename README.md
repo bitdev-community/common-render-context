@@ -35,7 +35,7 @@ export default createMounter(MyRenderContext) as any;
 ### 2. With Test Runner
 When running the test cases, you can import the common render context and wrap your components as shown below.
 
-[![Component Button](https://img.shields.io/badge/Button-v0.0.1-brightgreen)](https://bit.cloud/learnbit-react/common-render-context/demo/button)
+[![Component Button](https://img.shields.io/badge/Button-v0.0.2-brightgreen)](https://bit.cloud/learnbit-react/common-render-context/demo/button)
 ```ts
 it('should render with the correct text', () => {
   const { getByText } = render(<MyRenderContext><SampleButton /></MyRenderContext>);
