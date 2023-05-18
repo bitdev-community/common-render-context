@@ -84,5 +84,6 @@ it('should render with the theme color', () => {
   expect(styles.backgroundColor).toBe(primaryColor);
 });
 ```
+[![Component Button](https://img.shields.io/badge/Button-v0.0.1-brightgreen)](https://bit.cloud/learnbit-react/common-render-context/demo/button)
 
 Now you can use the `myRender` for all your unit tests.
