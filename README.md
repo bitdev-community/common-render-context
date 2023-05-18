@@ -1,3 +1,6 @@
+[![Bit Org Learnbit React](https://img.shields.io/badge/Bit-@learnbit--react-2C00C3)](https://bit.cloud/learnbit-react)
+[![Scope Common Render Context](https://img.shields.io/badge/Scope-Common--Render--Context_(4)-820596)](https://bit.cloud/learnbit-react/common-render-context)
+
 # Common Render Context
 If you are using custom render context such as a Theme Provider, you need to wrap your components both for previewing and test execution for expected functinoality. You can create a common render context and share it between the Env mounter and Test runner.  
 Let's look at how to create one and use it for a demo component. 

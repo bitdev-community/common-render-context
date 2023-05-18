@@ -43,7 +43,8 @@
         "@teambit/docs.docs-template": "^0.0.11",
         "@teambit/preview.react-preview": "^0.0.34",
         "@teambit/react.mounter": "^0.0.10",
-        "@teambit/react.react-env": "^0.0.63"
+        "@teambit/react.react-env": "^0.0.63",
+        "@testing-library/react": "^14.0.0"
       },
       "peerDependencies": {}
     },

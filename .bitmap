@@ -10,25 +10,25 @@
 
 {
     "demo/button": {
-        "scope": "",
-        "version": "0.0.2",
+        "scope": "learnbit-react.common-render-context",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "demo/button"
     },
     "envs/my-react": {
-        "scope": "",
-        "version": "0.0.2",
+        "scope": "learnbit-react.common-render-context",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "envs/my-react"
     },
     "render/my-render": {
-        "scope": "",
+        "scope": "learnbit-react.common-render-context",
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "render/my-render"
     },
     "render/my-render-context": {
-        "scope": "",
+        "scope": "learnbit-react.common-render-context",
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "render/my-render-context"
