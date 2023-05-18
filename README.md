@@ -68,7 +68,7 @@ export function myRender(children: React.JSX.Element): RenderResult {
 
 Then in each test case you can use the `testRenderer` as follows.
 
-[![Component Button](https://img.shields.io/badge/Button-v0.0.1-brightgreen)](https://bit.cloud/learnbit-react/common-render-context/demo/button)
+[![Component Button](https://img.shields.io/badge/Button-v0.0.2-brightgreen)](https://bit.cloud/learnbit-react/common-render-context/demo/button)
 ```ts
 import { testRenderer } from '@learnbit-react/common-render-context.render.test-renderer';
 
