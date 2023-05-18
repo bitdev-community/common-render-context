@@ -35,7 +35,6 @@ export default createMounter(MyRenderContext) as any;
 ### 2. With Test Runner
 When running the test cases, you can import the common render context and wrap your components as shown below.
 
-[![Component Button](https://img.shields.io/badge/Button-v0.0.2-brightgreen)](https://bit.cloud/learnbit-react/common-render-context/demo/button)
 ```ts
 it('should render with the correct text', () => {
   const { getByText } = render(<MyRenderContext><SampleButton /></MyRenderContext>);
@@ -52,8 +51,10 @@ it('should render with the theme color', () => {
 });
 ```
 
-### Creating a Custom Render for Test Reusability
-Wrapping each component with the shared render context in every test case lead to repetition of code. To avoid this, you can create a custom render function:
+Though, this approach is simpler to implement and easy to understand, we need to repeatedly add the wrapper for all our test cases. Therefore, let's look at an approach to avoid it.
+
+### Creating a Custom Test Renderer for Test Reusability
+To avoid this, you can create a custom test renderer function:
 
 [![Component Test Renderer](https://img.shields.io/badge/Test_Renderer-v0.0.1-brightgreen)](https://bit.cloud/learnbit-react/common-render-context/render/test-renderer)
 ```ts
