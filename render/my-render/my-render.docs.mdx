@@ -1,0 +1,6 @@
+---
+labels: ['module', 'test', 'render', 'mounter', 'common', 'reuse']
+description: 'Render that uses the common render context for unit tests'
+---
+
+Wrapping each component with the shared render context in every test case lead to repetition of code. This render component avoid it by providing a custom render that has the common render context wrapped inside. 

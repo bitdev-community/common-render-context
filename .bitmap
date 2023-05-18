@@ -11,27 +11,27 @@
 {
     "demo/button": {
         "scope": "",
-        "version": "",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "demo/button",
-        "config": {
-            "learnbit-react.common-render-context/envs/my-react": {},
-            "teambit.envs/envs": {
-                "env": "learnbit-react.common-render-context/envs/my-react"
-            }
-        }
+        "rootDir": "demo/button"
     },
     "envs/my-react": {
         "scope": "",
-        "version": "",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "envs/my-react"
     },
-    "render-contexts/my-render-context": {
+    "render/my-render": {
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "render-contexts/my-render-context"
+        "rootDir": "render/my-render"
+    },
+    "render/my-render-context": {
+        "scope": "",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "render/my-render-context"
     },
     "$schema-version": "15.0.0"
 }

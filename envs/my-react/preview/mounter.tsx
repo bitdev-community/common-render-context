@@ -1,5 +1,5 @@
 import { createMounter } from '@teambit/react.mounter';
-import { MyRenderContext } from '@learnbit-react/common-render-context.render-contexts.my-render-context';
+import { MyRenderContext } from '@learnbit-react/common-render-context.render.my-render-context';
 
 /**
  * use the mounter to inject and wrap your component previews
