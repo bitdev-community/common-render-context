@@ -62,22 +62,22 @@ export function myRender(children: React.JSX.Element): RenderResult {
   return render(<MyRenderContext>{children}</MyRenderContext>);
 }
 ```
-[![Component My Render](https://img.shields.io/badge/My_Render-v0.0.1-brightgreen)](https://bit.cloud/learnbit-react/common-render-context/render/my-render)
+[![Component Test Renderer](https://img.shields.io/badge/Test_Renderer-v0.0.1-brightgreen)](https://bit.cloud/learnbit-react/common-render-context/render/test-renderer)
 
 
-Then in each test case you can use the `myRender` as follows.
+Then in each test case you can use the `testRenderer` as follows.
 
 ```ts
-import { myRender } from './myRender';
+import { testRenderer } from '@learnbit-react/common-render-context.render.test-renderer';
 
 it('should render with the correct text', () => {
-  const { getByText } = myRender(<SampleButton />);
+  const { getByText } = testRenderer(<SampleButton />);
   const rendered = getByText('Click Me!');
   expect(rendered).toBeTruthy();
 });
 
 it('should render with the theme color', () => {
-  const { getByText } = myRender(<SampleButton />);
+  const { getByText } = testRenderer(<SampleButton />);
   const rendered = getByText('Click Me!');
   const styles = window.getComputedStyle(rendered);
   const primaryColor = 'rgb(76, 175, 255)';
@@ -86,4 +86,4 @@ it('should render with the theme color', () => {
 ```
 [![Component Button](https://img.shields.io/badge/Button-v0.0.1-brightgreen)](https://bit.cloud/learnbit-react/common-render-context/demo/button)
 
-Now you can use the `myRender` for all your unit tests.
+Now you can use the `testRenderer` for all your unit tests.
